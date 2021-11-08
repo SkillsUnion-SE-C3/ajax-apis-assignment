@@ -1,4 +1,4 @@
-[<img src="images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
+[<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
 
 # Ajax and apis: Assignment
 
