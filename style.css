@@ -1,0 +1,11 @@
+main {
+  display: flex;
+}
+
+div:first-child {
+  padding-right: 70px;
+}
+
+h3 {
+  cursor: pointer;
+}
