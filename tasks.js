@@ -12,7 +12,14 @@ Add functionality to getTasks method so that it
 
 const getTasks = async (id) => {
   /* only change the implementation of this function */
+
+  const response = await fetch(`https://mod2-api.herokuapp.com/owner/${id}/task`)
+  const data = await response.json()
+  tasks = data
+  renderTasks()
 }
+//console.log(getTasks(2))
+
 
 /*Looks at tasks array and renders all the tasks on the page*/
 const renderTasks = () => {
