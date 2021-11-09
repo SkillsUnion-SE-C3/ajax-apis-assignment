@@ -5,7 +5,7 @@ let owners = [{
 }]
 
 // Get all of the owners from the api
-// Set oweners array to the data coming from from the api
+// Set owners array to the data coming from from the api
 // Render the list of owners
 const getOwners = async () => {
   const response = await fetch("https://mod2-api.herokuapp.com/owner")
