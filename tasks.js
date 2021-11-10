@@ -10,7 +10,7 @@ Add functionality to getTasks method so that it
 
 */
 
-const getTasks = async (id) => {
+const getTasks = (id) => {
   /* only change the implementation of this function */
   fetch(`https://mod2-api.herokuapp.com/owner/${id}/task`)
     .then((data) => data.json())
